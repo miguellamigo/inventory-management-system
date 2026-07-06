@@ -21,3 +21,21 @@ MySQL
 Bootstrap 5
 Git
 GitHub
+
+🚀 Installation
+git clone ...
+cd inventory-management-system
+python -m venv .venv
+pip install -r requirements.txt
+python run.py
+
+📷 Screenshots
+(We'll add screenshots later.)
+
+👨‍💻 Author/Programmer
+Miguel Lamigo
+Computer Engineering Graduate
+
+💡 My vision for this project
+StockFlow IMS – Full-Stack Inventory Management System
+Designed and developed a responsive web application using Flask, SQLAlchemy, MySQL, and Bootstrap. Implemented secure authentication, inventory tracking, supplier management, reporting, and role-based access control while following industry-standard Git workflows.
