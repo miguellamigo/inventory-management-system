@@ -22,12 +22,22 @@ Bootstrap 5
 Git
 GitHub
 
-🚀 Installation
-git clone ...
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/miguellamigo/inventory-management-system.git
 cd inventory-management-system
+
 python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
 pip install -r requirements.txt
+
 python run.py
+```
 
 📷 Screenshots
 (We'll add screenshots later.)
