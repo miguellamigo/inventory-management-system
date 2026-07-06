@@ -1,8 +1,7 @@
 from flask import Flask
-
 from config import Config
-from app.extensions import db, migrate
-# from app.extensions import db, migrate, login_manager
+from app.extensions import db, migrate, login_manager
+import app.models
 
 
 def create_app():
