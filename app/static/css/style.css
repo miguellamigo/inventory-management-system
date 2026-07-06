@@ -1,0 +1,90 @@
+body{
+    font-family:"Inter",sans-serif;
+    background:#F8FAFC;
+    margin:0;
+}
+
+/* Layout */
+
+.app-layout{
+    display:flex;
+}
+
+/* Sidebar */
+
+.sidebar{
+    width:260px;
+    min-height:100vh;
+    background:white;
+    border-right:1px solid #E2E8F0;
+    padding:30px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:40px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar li{
+    padding:14px;
+    margin-bottom:8px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:.2s;
+}
+
+.sidebar li:hover{
+    background:#EFF6FF;
+}
+
+.sidebar li.active{
+    background:#2563EB;
+    color:white;
+}
+
+/* Main */
+
+.main-content{
+    flex:1;
+}
+
+/* Navbar */
+
+.navbar-custom{
+    background:white;
+    padding:20px 35px;
+    border-bottom:1px solid #E2E8F0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.profile{
+    font-weight:600;
+}
+
+/* Cards */
+
+.dashboard-card{
+
+    background:white;
+    border-radius:18px;
+
+    padding:30px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.05);
+}
+
+.dashboard-card h2{
+    font-size:40px;
+    font-weight:700;
+}
